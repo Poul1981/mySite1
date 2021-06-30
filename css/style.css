@@ -1,0 +1,416 @@
+body{
+    /* min-width: 1070px; */
+    margin: 0px;
+    padding:0px;
+    font-size: 18px;
+    font-family: Tahoma, sans-serif;
+    line-height: 24px;
+}
+.container{
+    width: 1023px;
+    margin:0 auto;
+    padding:0 30px;
+    /* border:2px solid #11e025; */
+}
+.clearfix:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.main-header{
+    padding-top:35px;
+    padding-bottom: 95px;
+    background-color:#6451d5;
+}
+.logo img{
+    display: block;
+}
+.header-top{
+    margin-bottom: 95px;
+    /* border:2px solid #ad8768; */
+}
+.header-top .logo{
+    width:181px;
+    min-height: 82px;
+    float: left;
+    /* border:2px solid #11e059; */
+}
+.main-menu{
+    float: right;
+    min-height: 30px;
+    width: 700px;
+    /* border:2px solid #e06e11; */
+    margin-top:24px;
+}
+.main-menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.main-menu li{
+    display: inline-block;
+    margin-right: 55px;
+    vertical-align: middle;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.main-menu li:last-child{
+    margin-right: 0;
+ }
+.main-menu a{
+    text-decoration:underline;
+    text-underline-position: under;
+    text-decoration-color: transparent;
+    color: rgb(255, 255, 255);
+    transition: color .3s linear, text-decoration-color .3s linear;
+}
+.main-menu a:hover{
+text-decoration: underline 2px;
+text-underline-position: under;
+/* border-bottom: 4px solid white; */
+}
+.main-menu a:active{
+text-decoration: none;
+color:#9285e2;
+}
+.promo{
+    width: 450px;
+    position: relative;
+    z-index: 10;
+    /* border:2px solid #e06e11; */
+}
+.promo:after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 653px;
+    height: 451px;
+    top:-25px;
+    left:379px;
+    background-image: url('../img/ItemsPict.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border:3px dotted orchid; */
+}
+.promo-title{
+    font-size: 45px;
+    margin-bottom: 35px;
+    line-height: 50px;
+    color:white;
+    font-family: 'Trebuchet MS',  sans-serif;
+}
+.promo p{
+    width: 390px;
+    margin: 0;
+    line-height: 30px;
+    color: #bcb3f2;
+    margin-bottom: 50px;
+}
+.btn{
+    display:inline-block;
+    width: auto;
+    background-color: #382d78;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: color .3s linear,
+        background-color .3s linear
+}
+.btn:active{
+    color:#6f6898;
+}
+.btn:hover{
+    background-color: #32286c;
+}
+.promo .btn-invite{
+    width: 320px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+}
+
+/* Features */
+.features{
+    padding-top: 50px;
+    padding-bottom: 45px;
+    background-color: #efefef;
+}
+.features-items{
+    position: relative;
+    /* min-height: 100px; */
+    width: 320px;
+    padding-top: 90px;
+    margin-right: 30px;
+    float:left;
+    text-align: center;
+    /* border:1px solid rgb(102, 17, 221); */
+}
+.features-items:last-child{
+    margin-right: 0px;
+}
+.features-icon{
+    position: absolute;
+    left: 116px;
+    top: -0px;
+    /* border:1px dashed black;  */
+}
+.features-icon-shedule{
+    width: 55px;
+    height: 59px;
+    background-image: url(../img/iconGraf.png);
+    background-repeat: no-repeat;
+
+}
+.features-icon-practic{
+    width: 73px;
+    height: 67px;
+    background-image: url(../img/iconPract.png);
+}
+.features-icon-job{
+    width: 69px;
+    height: 63px;
+    background-image: url(../img/iconWork.png);
+}
+.features-titles{
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.features-items p{
+    margin: 0;
+    font-size: 18px;
+    font-family: Tahoma, sans-serif;
+    color:#555555;
+}
+/* features end */
+.learning-form{
+    padding-top: 50px;
+    padding-bottom: 93px;
+    background-color: #fff;
+}
+.learning-title, .contacts-title{
+    font-size: 45px;
+    line-height: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+.learning-form table{
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color:#404040;
+    /* width: 1020px; */
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #a7a7a7;
+    border-top-width: 2px;
+    /* margin-bottom: 75px; */
+    
+}
+.learning-form table td{
+    border: 2px solid #a7a7a7;
+    /* padding:25px 30px; */
+    padding:20px;
+    padding-left: 30px;
+    padding-right: 15px;
+   }
+.table-title td{
+    border: 2px solid #a7a7a7;
+    background-color: #efefef;
+    text-align: left;
+    font-weight: normal;
+    /* padding:25px 30px; */
+    padding-top:22px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+.learning-form table .bold{
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Trebuchet MS',  sans-serif;
+}
+.learning-form .table .name{
+    /* box-sizing: border-box; */
+    width: 290px;
+}
+.learning-form .table .deskr{
+    white-space: wrap;
+    width: 540px;
+}
+/* learning form end */
+
+/* Contacts */
+.contact{
+    background-color: #efefef;
+    padding-top: 45px;
+    padding-bottom: 75px;
+    /* border:2px solid brown; */
+}
+.contact-form{
+    width: 620px;
+    float:left;
+    /* border:2px solid brown;  */
+}
+.contact-form td{
+    padding-bottom: 20px;
+}
+.contact-form .title{
+    font-size: 18px;
+    font-family:'Trebuchet MS',  sans-serif;;
+    width: 107px;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 10px;
+    line-height: 54px;
+}
+.contact-form .field{
+    width: 515px;
+    /* border: 1px solid red; */
+}
+.contact-form input[type="text"],
+.contact-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 14px 25px;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: Tahoma, sans-serif;
+    line-height: 24px;
+    outline: none;
+    border: 3px solid #b2b2b2;
+    border-radius: 3px;
+} 
+.contact-form input[type="radio"]{
+    margin-left: 15px;
+    margin-right: 30px;
+}
+.contact-form input[type="text"]:hover,
+.contact-form textarea:hover{
+    border: 3px solid #7f7f7f;
+}
+.contact-form input[type="text"]:focus,
+.contact-form textarea:focus{
+    border: 3px solid #6451d5;
+}
+.contact-form input[type=radio]:hover{
+    background-color:#c4c4c4 ;
+}
+.contact-form textarea{
+    min-height: 100px;
+    resize: none;
+}
+.btn-send{
+    width: 100%;
+    padding-top: 22px;
+    padding-bottom: 24px;
+}
+.contact-instruction{
+    width: 320px;
+    float:right;
+    /* border:2px solid brown;  */
+}
+.contact-instruction h3{
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS',  sans-serif;
+    line-height: 30px;
+}
+.contact-instruction p{
+    margin: 0;
+    margin-bottom: 30px;
+    color: #555555;
+}
+.contact-instruction .contact-alert{
+    margin: 0;
+    margin-top: 45px;
+}
+
+/* end contacts */
+
+/* footer */
+.main-footer{
+    background-color: #2a2546;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+.footer-address{
+    float: left; 
+    width: 235px;
+    /* border:2px solid #11e059; */
+    margin-right: 105px;
+}
+ .footer-address .logo{
+    width:181px;
+    float: none;
+}
+.footer-address p{
+    margin: 0;
+    margin-top: 80px;
+}
+
+.footer-menu{
+    text-align: left;
+    width: 145px;
+    margin-top: 25px;
+    float: left;
+    margin-right: 30px;
+    /* border:2px solid #11e059; */
+}
+.footer-menu:last-child{
+    float: right;
+    width: 140px;
+    margin-right: 0px;
+}
+.footer-menu h3{
+    margin: 0;
+    margin-bottom: 35px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.footer-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-menu li{
+    margin-bottom: 30px;
+}
+.footer-menu li:last-child{
+    margin-bottom: 0px;
+}
+.footer-menu a{
+    color: #a39ebe;
+    /* text-decoration: none; */
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: transparent;
+
+    transition: color .3s linear, 
+        text-decoration-color .3s linear;
+}
+.footer-menu a:hover{
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.footer-menu a:active{
+    text-decoration: none;
+    color: #69657d;
+}
+
